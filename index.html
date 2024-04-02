@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEG SHOP</title>
+</head>
+<body>
+    <form onsubmit="handleFormSubmit(event)">
+        <label for="itemName">Name: </label>
+        <input type="text" id="itemName" name="itemName">
+        <br>
+        <label for="price">Price: </label>
+        <input type="number" id="price" name="price">
+        <br>
+        <label for="quantity">Quantity: </label>
+        <input type="number" id="quantity" name="quantity">
+        <br>
+        
+        <button type="submit">ADD TO SHOP</button>
+    </form>
+    <ul id="listItem"></ul>
+    <p>Total: <input type = "number" id="totalcount"></p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js" integrity="sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
